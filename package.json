@@ -49,6 +49,10 @@
   ],
   "author": "SanjoyDat1",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "devDependencies": {
     "@types/node": "^22.15.30",
     "tsx": "^4.20.3",

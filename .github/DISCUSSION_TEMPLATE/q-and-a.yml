@@ -1,0 +1,23 @@
+title: "Q&A: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask integration questions, share tuning tips, or discuss use cases.
+        For bugs, use the Bug Report template instead.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Node version, package version, framework (Next.js, LangChain, etc.)
+    validations:
+      required: false

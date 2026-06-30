@@ -66,4 +66,4 @@ Open an issue with the [feature request template](.github/ISSUE_TEMPLATE/feature
 
 ## Code of conduct
 
-Be respectful and constructive. We're building infrastructure others depend on.
+Be respectful and constructive. See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).

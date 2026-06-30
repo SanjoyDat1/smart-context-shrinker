@@ -228,6 +228,15 @@ smart-context-shrinker/
 
 Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Community
+
+- [Discussions](https://github.com/SanjoyDat1/smart-context-shrinker/discussions) — Q&A and integration help
+- [Issues](https://github.com/SanjoyDat1/smart-context-shrinker/issues) — bugs and feature requests
+- [Security policy](SECURITY.md) — report vulnerabilities privately
+- [Code of conduct](CODE_OF_CONDUCT.md)
+
+Maintainers: see [docs/PUBLISHING.md](docs/PUBLISHING.md) for release and npm publish steps.
+
 ---
 
 ## License
