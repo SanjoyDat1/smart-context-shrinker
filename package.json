@@ -1,0 +1,63 @@
+{
+  "name": "smart-context-shrinker",
+  "version": "0.1.0",
+  "description": "Framework-agnostic TypeScript utility that compresses LLM chat context into an immutable JSON ledger",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "example": "tsx examples/basic-usage.ts",
+    "example:live": "tsx examples/live-compression.ts",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanjoyDat1/smart-context-shrinker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SanjoyDat1/smart-context-shrinker/issues"
+  },
+  "homepage": "https://github.com/SanjoyDat1/smart-context-shrinker#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "llm",
+    "context",
+    "compression",
+    "context-window",
+    "openai",
+    "tokens",
+    "chatbot",
+    "agent",
+    "context-pruning"
+  ],
+  "author": "SanjoyDat1",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "gpt-tokenizer": "^2.9.0",
+    "openai": "^5.3.0",
+    "zod": "^3.25.67"
+  }
+}
